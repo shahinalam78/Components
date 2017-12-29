@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name = "LordAndTaylorTest">
+
+    <listeners>
+        <listener class-name="com.shifted.report.ExtentTestListener"/>
+    </listeners>
+
+    <test name = "LordAndTaylorBasicTest">
+
+      <classes>
+
+       <class name="com.shifted.components.LordAndTaylorBasicTest"/>
+
+      </classes>
+
+    </test>
+
+</suite>
